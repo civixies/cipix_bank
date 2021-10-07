@@ -1,9 +1,15 @@
+:root{
+    --desjardins_green: #00874e;
+    --facebook_blue: #4267B2;
+    --twitter_blue: #1DA1F2;
+}
+
 /* ***************
 ***** NAV *****
 *************** */
 
 nav div {
-    background-color: #00874e;
+    background-color: var(--facebook_blue);
     display: flex;
     flex-direction: row;
 }
@@ -18,7 +24,7 @@ nav ul li{
     display:inline-block;
     border: 2px solid red;
     padding: 0%;
-    background-color: #00874e;
+    background-color: var(--desjardins_green);
     margin: 0%;
 }
 
@@ -34,7 +40,7 @@ nav ul li a {
 ***** Footer *****
 *************** */
 footer{
-    background-color: #00874e;
+    background-color: var(--desjardins_green);
     display: flex;
     flex-direction: row;
 }
