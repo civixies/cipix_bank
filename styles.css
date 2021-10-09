@@ -40,7 +40,48 @@ nav ul li a {
 ***** Footer *****
 *************** */
 footer{
-    background-color: var(--desjardins_green);
+    background-color: var(--facebook_blue);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+footer div.foot_pad{
+    padding-left: 5%;
+}
+
+footer div#screen{
+    width: 100%;
+    font-size:x-large;
+    /* border: 5px solid red; */
+    margin: 2% 0% 2% 0%;
+}
+
+footer div#screen span{
+    font-weight: bold;
+}
+
+footer div#table{
+    /* background-color: black; */
+    width: 100%;
     display: flex;
     flex-direction: row;
+    border: 5px solid red;
+}
+
+footer div div{
+    width: 20%;
+    border: 5px solid green;
+}
+footer div h3{
+    font-weight: bold;
+}
+
+footer div ul, footer div li{
+    list-style-type: none;
+    padding: 0% 3% 10% 0%;
+}
+
+footer div#legal{
+    background-color: darkblue;
 }
