@@ -48,6 +48,12 @@ footer{
 
 footer div.foot_pad{
     padding-left: 5%;
+    display: inline;
+}
+
+footer div.foot_pad img{
+    width: 5%;
+    height: 5%;
 }
 
 footer div#screen{
