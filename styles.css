@@ -74,7 +74,7 @@ footer div.foot_pad div ul li a, footer div.foot_pad div ul li a:visited{
 }
 
 footer div.foot_pad div.leftborder {
-    border-left: 1px solid lightgoldenrodyellow;
+    border-left: 1px solid yellow;
     padding: 0% 0% 0% 1.5%;
     /* top right bottom left; */
 }
@@ -113,4 +113,9 @@ footer div ul, footer div li{
 
 footer div#legal{
     background-color: darkblue;
+}
+
+footer div#legal p{
+    padding: 0.5em 0.5em 0.5em 5%;
+    font-size:smaller;
 }
