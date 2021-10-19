@@ -71,6 +71,17 @@ footer div.foot_pad img{
 footer div.foot_pad div ul li a, footer div.foot_pad div ul li a:visited{
     text-decoration: none;
     color: white;
+    padding: 2%;
+}
+
+footer div.foot_pad div ul li a:hover{
+    display: inline-block;
+    background-color: lightblue;
+    border: 5px solid lightblue;
+    border-radius: 5px;
+    text-decoration: underline;
+    padding: 0%;
+    
 }
 
 footer div.foot_pad div.leftborder {
@@ -109,6 +120,11 @@ footer div h3 {
 footer div ul, footer div li{
     list-style-type: none;
     padding: 0% 3% 10% 0%;
+}
+
+footer div div.foot_pad div i{
+    font-size: 25px;
+    margin: 5px;
 }
 
 footer div#legal{
