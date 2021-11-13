@@ -7,30 +7,89 @@
 /* ***************
 ***** Header *****
 *************** */
+header nav div {
+    /*background-color: var(--facebook_blue);*/
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+header nav div p {
+    align-items:center;
+    background-color: var(--facebook_blue);
+    display: flex;
+    width: 42%;
+    padding-left: 5%;
+}
+
+header nav div ul {
+    background-color: var(--facebook_blue);
+    display: flex;
+    flex-direction: row;    
+    list-style-type: none; 
+    width: 58%;    
+}
+
+header nav div ul li {
+    border-left: 2px solid darkblue;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    /* overflow: hidden; */
+    white-space: nowrap;
+
+}
+
+header nav div ul li.notext {
+    width: 10%;
+}
+
+header nav div p, header nav div ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header nav div ul li.hover:hover {
+    background-color: darkblue;
+}
+header nav div ul li a:visited {
+    text-decoration: none; 
+    decoration: none; 
+}
 
 /* ***************
 ***** NAV *****
 *************** */
-
+/* 
 nav div {
     background-color: var(--facebook_blue);
     display: flex;
     flex-direction: row;
 }
 nav div p {
-    /* padding: 2% 0% 0% 2%; */
-    /* margin: 0%; */
+    padding: 2% 0% 0% 2%;
+    margin: 0%;
     color: white;
     width: 0%;
 }
 
-nav ul li{
+nav div ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav div ul li{
     list-style-type: none;
     display:inline-block;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     padding: 5%;
     background-color: var(--desjardins_green);
-    /* margin: 10%; */
+    margin: 10%;
 }
 
 nav ul li a {
@@ -38,7 +97,7 @@ nav ul li a {
     font-weight: bold;
     text-decoration: none;
 }
-
+ */
 
 
 /* ***************
@@ -85,7 +144,7 @@ footer div.foot_pad div ul li a:hover{
 }
 
 footer div.foot_pad div.leftborder {
-    border-left: 1px solid yellow;
+    border-left: 0.2px solid lightgray;
     padding: 0% 0% 0% 1.5%;
     /* top right bottom left; */
 }
